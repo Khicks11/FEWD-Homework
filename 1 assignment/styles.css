@@ -1,0 +1,46 @@
+body{
+	font-family:arial,sans-serif;
+	color: #000000;
+	line-height:1.5em;
+	padding: 0 5em;
+	border-top: 5px solid #222222;
+	border-bottom:5px solid #222222;
+	margin:0;
+	background-color:#F6F6F6;
+}
+
+img{
+	float: right;
+	margin: 0 1em 1em 1em;
+}
+
+div{ 
+	border-bottom: 1px solid #000000; 
+}
+
+table{
+	width: 50%;
+}
+
+th{
+	background-color: #222222;
+	color:white;
+	border-spacing: 1px;
+	padding:10px;
+}
+
+td{
+	background-color:#eeeeee;
+	padding:10px;
+}
+
+p{
+	font-family:Georgia, Times, "Times New Roman", serif;
+	color:#05080C;
+	font-size:18px
+	line-height:1.5;
+}
+
+a{
+	color:#48138A;
+}
