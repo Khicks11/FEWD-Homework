@@ -1,0 +1,58 @@
+* {
+ box-sizing: border-box;
+}
+
+.clearfix:after {
+   content:"";
+   display:block;
+   clear:both;
+}
+
+body {
+ text-align: center;
+ width: 50em;
+ border: 1px solid black;
+ margin: 1em auto;
+}
+
+.content {
+ background-color: #CCC;
+ border: 1px solid #666;
+ margin:auto;
+}
+
+header, footer {
+ height: 5em;
+ margin: 10em;
+}
+
+div.left-content2col {
+ width: 47%;
+ float: left;
+ height: 15em;
+ margin-left: 1em;
+}
+
+div.full-page-content {
+ width: 100%;
+ height: 100em; 
+ float:left;
+}
+
+div.left-content {
+ width: 100em;
+ float: left;
+ height: 15em;
+ margin-right: 1em;  
+}
+
+div.right-content {
+ width: 10em;
+ float: right;
+ height: 5em;
+ margin-right: 1em;  
+}
+
+div.wrapper{
+	margin: 1em 0;
+}
