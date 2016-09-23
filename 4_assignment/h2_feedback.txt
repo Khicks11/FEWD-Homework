@@ -1,0 +1,18 @@
+Use HTML5 structural elements (nav, header, footer)
+ - Good!
+Use a CSS Reset file in addition to your style.css file to style the page
+ - Good!
+Use IDs and Classes to to select and style elements on the page
+ - Good!
+Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes
+ - Good!
+Indent nested elements to increase your code's readability
+ - Good!
+Use CSS display and float to get the layout correct
+ - Good!
+
+Additional Comments:
+
+- Great job! Good use of spacing and nice attention to detail. Nice use of descriptive class and ID names. HTML and CSS is consistent and well formatted.
+
+- The only stylistic issue I see is that the header image is cutoff. This can be fixed by manually setting the height of your toppage class to a larger value.
