@@ -1,0 +1,267 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     font-family: 'open sans',Helvetica, Arial, sans-serif;
+     background-color:#DEDEDE;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#container {
+  margin: 0 auto;
+  width:960px;
+}
+
+header {
+  padding:0;
+}
+
+.headernav{
+	background-color:#033048;
+	padding:20px 0;
+}
+
+.nav a{
+	color:#F7E14F;
+	text-decoration:none;
+	padding-right:1em;
+	font-weight:300;
+	font-size: 24px
+}
+.nav{
+	padding:.75em 1em 0 0;
+}
+
+#toppage{
+   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  display:block;
+  padding: 0 5em;
+}
+
+h1{
+  font-size: 40px;
+  color:#033048;
+  font-weight: 600;
+}
+h2{
+  font-size: 3em;
+   color:#033048;
+}
+h3{
+  font-size:18px;
+  font-weight:300;
+  font-style:italic;
+  color:white;
+}
+
+h4{
+  font-size: 32px;
+  font-weight:700;
+   color:#033048;
+}
+
+p{ font-size:24px;
+font-weight:300; }
+
+li{font-size:13px;
+font-weight:300;
+padding:.75em;}
+
+a{  
+  text-decoration:none;
+}
+
+.quotee{
+  font-weight:600;
+  font-style:normal;
+}
+
+.readmore{
+	font-size:24px;
+	font-weight:600;
+}
+
+.blogcol a{
+	color:#033048;
+}
+
+.blogcol img{
+	width: 676px;
+}
+
+.blogpost{
+	margin-top:50px;
+	padding-bottom:50px;
+	border-bottom:1px solid #121212;
+}
+
+.blogpost:last-child{
+	border-bottom:none;
+}
+
+.button{
+  background-color: #F7E14F;
+  font-size:14px;
+  padding:1em 4em;
+  color:#2A3F51;
+  font-weight:800;
+  border-radius:5px;
+  border:none;
+}
+
+.logo{
+  color: white;
+  font-weight:600;
+  font-size:40px;
+  padding: 0 0 0 1em;
+  margin:0;
+}
+
+.logoyellow {
+  color: #F7E14F;
+  float:none;
+  padding:30px 0 0 0;
+}
+
+footer {
+text-align: center;
+background-color:#121212;
+color:white;
+}
+
+footer img{
+  padding: 1em;
+}
+
+footer p{
+  padding:1em 0 3em 0;
+  font-size:9px;
+}
+
+.blogcol{
+	width:700px;
+	padding-right:20px;
+	padding: 0 0 0 2em;
+}
+.cta{
+  background-color:#F6E14E;
+  padding:3em 0;
+  text-align:center;
+}
+.sidecol{
+	width:240px;
+}
+.sidecol h4{
+	margin:50px 0 0 0;
+}
+.sidecol a {
+	font-size:24px;
+	font-weight:300;
+	color:#033048;
+	line-height:0;
+}
+
+.sidecol ul{
+	list-style:none;
+	padding:0;
+}
+.sidecol .learnmore{
+	font-weight:700;
+}
+.about{
+	font-size:22px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.bluebutton{
+  background-color:#033048;
+  color:white;
+  font-size:18px;
+  padding:1em 4em;
+  font-weight:800;
+  border-radius:3px;
+}
+
+.sidecol img{
+	margin:70px 0;
+}
+
+
+
+
+background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
+
+Nav: Semibold, 24px
+
+Main column width: 700px
+Sidebar width: 240px
+Gutter: 20px
+
+Post Titles - 40px, semibold
+"How I implemented Relaxr in 2 weeks and changed my life."
+"I traveled across the globe thanks to Relaxr’s Excel auomation"
+
+Body text - Light 24px
+Read More - 24px semibold
+
+Sidebar headers - 32px, extra bold
+Categories list - 24px, light
+"Success stories
+Stats
+How tos
+Best of
+Business tips"
+
+About text - 22px light
+Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.
+Learn More - Semibold, 22
+

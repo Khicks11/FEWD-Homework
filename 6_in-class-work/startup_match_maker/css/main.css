@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+body{
+	width: 55em;
+	margin:0 auto;
+	font-family: 'Open Sans', sans-serif;
+	color:#333333;
+	font-weight:300;
+}
+
+h1{
+	font-size: 21px;
+	color: #0B23FA;
+	margin:0;
+
+}
+
+h2{
+	font-size:20px;
+	color: #0B23FA;
+	margin: 0;
+}
+
+h3{
+
+}
+
+p{
+	font-size:14px;
+}
+
+header{
+	background-color: black;
+	height: 150px;
+}
+
+#logo{
+	float: left;
+	font-family: 'Merriweather', serif;
+	font-weight:700;
+	color:#FFFD38;
+	font-size: 27px;
+	padding: 25px;
+}
+nav a{
+	font-size: 20px;
+	color:white;
+	text-decoration:none;
+	padding: 10px;
+}
+nav{
+	float:right;
+	padding-right:25px;}
+
+.findcopy{
+	font-family: 'Oswald', sans-serif;
+	color:white;
+	text-decoration:none;
+	font-weight: 700;
+	font-size: 23px;
+	text-transform:uppercase;
+}
+
+#quotebox{
+	text-align:center;
+	font-style:italic;
+	font-family: 'Merriweather', serif;
+	font-size:20px;
+	background-color:#D3D3D3;
+	padding:20px 0;
+	border-top: 2px solid #FFFD38;
+}
+.underline{
+	border-bottom:3px solid #FFFD38;
+}
+
+.strikethrough{
+	text-decoration:line-through;
+	color:#818181;
+}
+
+.yellowbutton{
+	padding: 10px;
+	text-align:center;
+	background-color:#FFFD38;
+	box-shadow: 2px 2px #CBCA15;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	font-weight:700;
+	border-radius:4px;
+}
+
+#picturebkgd{
+	background: url("../images/coworking.jpg") no-repeat center center;
+	background-size: cover;
+	height:400px;
+	padding: 20px;
+	margin-bottom:20px;
+}
+.overlay{
+	width: 300px;
+	background-color:rgba(255, 255, 255, .9);
+	float:right;
+	padding: 20px;
+	box-shadow: 1px 1px 2px rgba(100, 100, 100, .8);
+}
+
+
+.col{
+	float:left;
+	display:inline-block;
+	padding: 0 20px;
+	border-right:1px solid #D3D3D3;
+	width:293px;
+	text-align:justify;
+}
+
+.graybutton{
+	padding: 10px;
+	text-align:center;
+	background-color:#D3D3D3;
+	box-shadow: 2px 2px #A5A5A5;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	font-weight:700;
+	border-radius:4px;	
+}
+
+
+.col:last-child {
+    border: none ;
+}
+
+.threecol{
+	padding-bottom:30px;
+}
+
+footer{
+	background-color:black;
+	color:white;
+	font-family: 'Merriweather', serif;
+	padding:20px 10px;
+	font-size:11px;
+}
