@@ -1,0 +1,40 @@
+Use floats or inline-block in your CSS to achieve a two-column layout
+  -Good!
+
+Use the correct Open Sans Google Font typeface to style the text denoted in the design file and according to the JPEG provided
+  -Good!
+
+Use proper filename conventions (lowercase, .html)
+  -Good!
+
+Use an external CSS stylesheet to style your page
+  -Good!
+
+Make sure that all images are no wider than their containers
+  -Good!
+
+Add a hover effect to all the links using pseudo-classes
+  -You may not have noticed this in the instructions. Hover effects are really easy.
+a:hover {
+  color: red;
+}
+
+Integrate drop caps using pseudo-classes
+  -This is talking about those giant letters at the beginning of each post. You can target those letters with the pseudo class ::first-letter (just like you did with .blogpost:last-child). Then you just give it its own style:
+
+.blogpost p::first-letter {
+  font-size: 72px;
+  float: left;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+
+Additional Comments:
+
+Kelsey, this looks really good! Great use of comments to help organize your code.
+
+One little thing: in your CSS file, from line 234 to the bottom, it's fine to have that in there, but it should be commented out, like:  /* blah blah blah */
+The browser is just sort of ignoring it, but it's better to comment it out/not have it as live code.
+
+Overall, this looks great! You are definitely getting the hang of this.
