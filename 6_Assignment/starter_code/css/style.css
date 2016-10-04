@@ -228,6 +228,13 @@ footer p{
 	margin:70px 0;
 }
 
+/* DROPCAPS SOLUTION from another code */
+.teaser p:first-letter {
+  float: left;
+  font-size: 6em;
+  line-height: 1;
+  color: #DDD;
+  margin: -.1em .1em 0 -.1em;
 
 
 
