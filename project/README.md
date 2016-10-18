@@ -1,0 +1,1 @@
+My husband and I have a side-hustle business in which we collect Mid-Century designer (legit from the 50s, or at least inspired by, but must be vintage) furniture and house decor. We have been selling online, but mostly via craigslist, ebay local, etc. 

@@ -2,7 +2,7 @@
 
 //Get input
 
-// When 'submit' is clicked and 
+// When 'submit' is clicked and
 	// if input equals "New York", "New York City", "NYC"
 		// store input in var
 		// get 'body' 'background' in css
@@ -34,15 +34,15 @@ var city;
 	});
 
 	function changeCityScape() {
-		if (city === 'New York' || city === 'NYC' || city === 'New York City') {
+		if (city === 'NYC') {
 			$('body').css('background-image', 'url(images/nyc.jpg)');
-		} else if (city === 'San Francisco' || city === 'SF' || city === 'Bay Area') {
+		} else if (city === 'SF') {
 			$('body').css('background-image', 'url(images/sf.jpg)');
-		} else if  (city === 'Los Angeles' || city === 'LA' || city === 'LAX') {
+		} else if  (city === 'LA') {
 			$('body').css('background-image', 'url(images/la.jpg)');
-		} else if  (city === 'Austin' || city === 'ATX') {
+		} else if  (city === 'ATX') {
 			$('body').css('background-image', 'url(images/austin.jpg)');
-		} else if  (city === 'Sydney' || city === 'SYD') {
+		} else if  (city === 'SYD') {
 			$('body').css('background-image', 'url(images/sydney.jpg)');
 		};
 	};
