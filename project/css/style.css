@@ -13,13 +13,19 @@ body{
   color:#303030;
 }
 
-h1{}
+h1{
+  font-size:45px;
+  font-weight: 300;
+}
 h2{
-  font-size: 28px;
+  font-size: 29px;
   font-weight: 600;
 }
-h3{}
-h4{}
+h3{ font-size:23px;
+  font-weight: 300;}
+
+h4{  font-size:20px;
+  font-weight: 300;}
 a{
   text-decoration:none;
 }
@@ -60,10 +66,14 @@ header{
 #hero{
   height:38em;
   width: 100%;
+  overflow: hidden;
 }
 #hero img{
   float: right;
   clip: rect (opx, 60px, 200px, 0px);
+}
+#herocopy{
+
 }
 #productwrapper{
   height:10em;
